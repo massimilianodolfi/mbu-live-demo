@@ -307,3 +307,19 @@ Your output MUST either:
 3. **If simplifications made**: Create a PR with the changes
 
 Begin your code simplification analysis now.
+
+permissions:
+   actions: read
+   attestations: read
+   checks: read
+   contents: read
+   deployments: read
+   discussions: read
+   id-token: none
+   issues: read
+   packages: read
+   pages: read
+   pull-requests: read
+   security-events: read
+   statuses: read
+   copilot-requests: write

@@ -42,5 +42,5 @@ Use GitHub read tools to gather evidence. Do not infer activity that is not supp
 ## Safe Outputs
 
 - When the report is supported by the collected evidence, publish it with the configured `create-issue` safe output using a concise descriptive title.
-- If there are no commits, issues, or pull requests in the reporting window, call `noop` with the exact evaluated UTC window and a short explanation instead of creating an issue.
+- If there are no commits, issues, or pull requests in the reporting window, create the issue anyway and state clearly that no activity occurred, including the exact evaluated UTC window.
 - Call `noop` with a short explanation if the repository data is unavailable or insufficient to produce an accurate report.
